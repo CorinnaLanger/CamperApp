@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto&family=Rubik:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    max-width: 375px; 
+    background-color: #B7D0BF;
+    
+}
+header {
+    max-width: 375px; 
+    background-color: #B7D0BF;  
+   
+}
+.transparenz {
+    opacity: 0.5;
+}
+header img {
+    width: 375px;
+    height: 328.92px;
+    top: 0px;
+    left: 0px;
+    
+}
+header img:nth-of-type(2) {
+    border-radius: 60%;
+    height:120px;
+    width: 120px;
+    position: absolute;
+    left: 128px;
+    top: 104px;
+}
+header h1 {
+    position: absolute;
+    font-family: 'Hiragino Sans';
+    font-style: normal;
+    font-weight: 600;
+    margin-top: -300px;
+    margin-left: 165px;
+    z-index: 90;
+    font-size: 20px;
+    color: #313131; 
+  
+}
+header h2 {
+    position: absolute;
+    width: 207px;
+    height: 28px;
+    left: 106px;
+    top: 254px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #F3F3F3;
+  
+}
+
+header h4 {
+    position: absolute;
+    width: 101px;
+    height: 12px;
+    left: 138px;
+    top: 291px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #EFF1EB;
+}
+.gutshofmenü {
+    display: flex;
+}
+.gutshofmenü img:nth-of-type(1) {
+    width: 11.51px;
+    height: 17.46px;
+    margin-left: 33.39px;
+}
+.gutshofmenü p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;  
+}
+.firsticons {
+    margin-top: 45.08px;
+}
+.secondicons {
+    margin-top: 12px;
+}
+#b {
+    padding-left: 10.71px;
+}
+#c {
+    padding-left: 41.49px;
+    padding-right: 11.01px;
+}
+#f {
+    padding-left: 10.44px;
+}
+#g {
+    padding-left: 54.54px;
+    padding-right: 12.61px;
+}
+
+.Info_Bilder_uw {
+    margin-left: 33px;
+    margin-top: 25px;
+    /* margin-bottom: 32px; */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    background-color: #B7D0BF;
+    
+}
+.Infos {
+    display: flex;
+    font-family: 'Hiragino Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+}
+.texte {
+    font-family: 'Hiragino Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    width: 325px;
+    height: 65px;
+    margin-left: 30px;
+   
+}
+.Infos img:nth-of-type(1) {
+margin-left: 30px;
+
+}
+#world {
+    margin-top: 8.41px;
+}
+.Infos p {
+    padding-left: 18.75px;
+    padding-top: 8px;
+}
+#speak {
+    padding-top: 11px;
+}
+.linie {
+    margin-left: 31px;
+}
+.threebilder {
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.threebilder img:nth-of-type(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.twobilder {
+    display: flex;
+}
+.twobilder img:nth-of-type(1) {
+    width: 153.33px;
+    height: 161px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-right: 12.67px;
+}
+.star {
+    display: flex;
+    margin-left: 28.43px;
+    transform: translateY(-52px);
+}
+.star img {
+    margin-right: 4.85px;
+}
+.h4 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #424753;
+    transform: translateY(-41px);
+    margin-left: 28.43px;
+}
+.action {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;    
+    letter-spacing: 0.02em;
+    color: #979797;
+    margin-left: 26.43px;
+    transform: translateY(-40px);
+}
+.bewertungen {
+    display: flex;
+    margin-left: 30px;
+}
+.bewertungen p:nth-of-type(1) {
+    padding-right: 59px;
+    font-family: 'Hiragino Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+}
+.bewertungen p:nth-of-type(2) {
+    font-family: 'Hiragino Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Lucy {
+    display: flex;
+    margin-left: 38px;
+    margin-top: 32px;
+}
+.Lucy p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000000;
+    margin-left: 16px;
+}
+#month {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000000;
+    margin-left: 92px;
+    transform: translateY(-20px);
+}
+nav {
+    background-color: #2D4535;
+    width:375px;
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 15px;
+    list-style-type: none;
+}
+nav li {
+    width: 70px;
+}
+.orange {
+     background-color: #FF602C;
+     border-radius: 50px;
+     bottom: 36.27%;
+     position: relative;
+     top: -50px;
+     height: 70px;
+     width: 70px;
+   
+}
+.orange img {
+    margin-top: 20px;
+}
+
+/* ---Seite 2--- */
+#comic {
+    width: 150px;
+    height: 227px;
+    left: 0px;
+    top: 112px;
+}
+.follower {
+    display: flex;
+    margin-left: 30px;
+    padding-top: 36px;
+}
+.follower p {
+    font-family: 'Hiragino Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #313131;
+    padding-left: 13px;
+    padding-right: 45px;
+    padding-top: 10px;
+}
+.follower img {
+    width: 40px;
+    height:40px;
+}
+.follower img:nth-of-type(2) {
+    border-radius: 50%;
+    margin-left: -10px;
+
+}
+.follower img:nth-of-type(3) {
+    width: 30px;
+    height: 30px;
+    transform: translateY(-5px);
+
+    }
+    .price {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 22px;
+    margin-bottom: 9px;
+    }
+    .price h2 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #424753;
+
+    }
+    .price p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #424753;
+    padding-left: 17px;
+    transform: translateY(6px);
+    }
+    .price #night {
+    font-family: 'Hiragino Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;    
+    color: #9A9A9A;
+    }
+    .beschreibung {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 345px;
+    height: 95px;
+    margin-left: 15px;
+    margin-top: 28px;
+    border: 1.5px solid #2D4535;
+    filter: drop-shadow(0px 15px 45px rgba(0, 0, 0, 0.1));
+    border-radius: 10px;
+    margin-bottom: 28px;
+
+    }
+
+#bed {
+    font-family: 'Hiragino Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    transform: translateX(-20px);
+    color: #313131;
+
+}
+.personwifi {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #424753;
+    transform: translateX(-10px);
+
+}
+#wifi {
+    transform: translateX(-16px);
+}
+/* --Seite 3-- */
+
+.Brett {
+    width: 375px;
+    height: 100px;  
+}
+.black {
+    font-family: 'Hiragino Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;;
+    letter-spacing: 0.02em;
+    color: #313131;
+    margin-top: 55px;
+    margin-left: 100px;
+}
+.kreis {
+    background-color: #FF602C;
+    border-radius:50%;
+    width: 4px;
+    height: 4px;
+    transform: translateX(330px);
+    margin-top: 60px;
+
+}
+.avatar {
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 29px;
+    border-radius: 32px;
+}
+.flex {
+    display: flex;
+    margin-left: 150px;
+    transform: translateY(-50px);
+    justify-content: space-around;
+}
+
+.num {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #313131;
+    margin-right: 30px;
+}
+
+.txt {
+    font-family: 'Hiragino Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #000000;
+}
+.txt p:nth-of-type(2) {
+    padding-left: 28px;
+    padding-right: 26px;
+    color: green;
+}
+
+#green {
+transform: translateY(10px);
+font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #2D4535;
+}
+#gastgeber {
+font-family: 'Hiragino Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+color: #2D4535;
+margin-left: 33px;
+margin-top: -30px;
+margin-bottom: 5px;
+}
+
+#one {
+color:#EFF1EB;
+background: #2D4535;
+border-radius: 12px;
+width: 104px;
+height: 34px;
+transform: translateY(60px);
+margin-left: 30px;
+
+
+}
+#two {
+width: 211px;
+height: 34px; 
+border: 2px solid #2D4535;
+border-radius: 12px;
+color: #2D4535;
+background-color:  #B7D0BF; 
+transform: translateY(60px);
+}
+#Info_Bilder_4 {
+margin-top: 30px;
+margin-left: 50px;
+   
+}
